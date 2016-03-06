@@ -6,7 +6,6 @@ import (
 	"strconv"
 	"strings"
 
-	"fmt"
 	"github.com/ssdb/gossdb/ssdb"
 	"time"
 
@@ -55,7 +54,6 @@ func (rc *Cache) GetMulti(keys []string) []interface{} {
 		for i := 1; i < size*2; i += 2 {
 			values = append(values, string(res[i+1]))
 		}
-		fmt.Printf("%s", values)
 		return values
 	}
 	for i := 0; i < size; i++ {
