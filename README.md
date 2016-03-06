@@ -3,7 +3,7 @@ a go ssdb cache  module of beego's cache
 
 # Examples
 
-package main
+    package main
 
     import (
         "fmt"
