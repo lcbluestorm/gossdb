@@ -1,5 +1,5 @@
 # Gossdb
-a go ssdb cache  module for beego
+a ssdb cache for beego written in go
 
 # Examples
 
